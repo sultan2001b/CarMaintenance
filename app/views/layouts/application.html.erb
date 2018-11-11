@@ -14,8 +14,23 @@
 
   <body>
 
+  <div class="row">
 
+      <div class="col s1 z-depth-3">
+        <!-- Grey navigation panel -->
+  <%= link_to "customers", customers_path %>
+
+      </div>
+
+      <div class="col s9">
+        <!-- Teal page content  -->
+        <div class="container">
+        <!-- Page Content goes here -->
     <%= yield %>
+      </div>
+      </div>
+
+    </div>
    
           
   
