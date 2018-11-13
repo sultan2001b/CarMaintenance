@@ -13,5 +13,10 @@
  *= require_tree .
  *= require_self
  */
-  @import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
+@media print {
+  .hide-in-print {
+    display: none;
+  }
+}
